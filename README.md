@@ -4,15 +4,15 @@ MuseScore plugin to create a callout measure like the ones used in Handbell nota
 ![image](https://user-images.githubusercontent.com/14922694/150149682-0a8e9690-51f7-471c-98ac-86b781700f45.png)
 
 # Important Note
-This plugin is still in development. Currently it counts all the notes used in the score, creates 12 empty measures at the beginning of the score, and inserts the notes used into them. You will need to edit the inserted measures manually to simulate an actual callout measure. (Can't find an API command for this at the moment)
+This plugin is still in development. Currently it counts all the notes used in the score, creates 12 empty measures at the beginning of the score, and inserts the notes used into them. You will need to edit the inserted measures manually to simulate an actual callout measure. (Can't find an API command for this at the moment)\
 **Please use this plugin with caution!** Recommended to make a backup of your score before using this, just in case. 
 
 # Installation
 Please see the [MuseScore handbook](https://musescore.org/en/handbook/3/plugins#installation) for installation. Make sure the plugin is enabled as described in the handbook. 
 
 # Development Notes
-As of now I am unable to find a way to fully automate the callout measure creation process, so some visual representations still need to be manually done as a workaround. 
-The plugin does not separate chimes and bells yet - all notes will be counted together. 
+As of now I am unable to find a way to fully automate the callout measure creation process, so some visual representations still need to be manually done as a workaround.\
+The plugin does not separate chimes and bells yet - all notes will be counted together.\
 If 12 placeholder bars are not enough to contain all your notes, you can modify the code to increase the number of bars added. 
 
 # Step-by-step Tutorial
