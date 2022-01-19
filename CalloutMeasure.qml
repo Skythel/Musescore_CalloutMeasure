@@ -178,8 +178,8 @@ MuseScore {
              
              // select the first measure
              cmd("first-element");
-             // placeholder insert 10 measures
-             for(var i=0; i<10; i++) 
+             // placeholder insert 12 measures
+             for(var i=0; i<12; i++) 
                   cmd("insert-measure");
              
              cmd("first-element");
