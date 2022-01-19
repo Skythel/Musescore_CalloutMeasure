@@ -67,4 +67,5 @@ Your score is now ready with the callout measure.
 
 # Credits
 [CountNotes by jeetee](https://github.com/jeetee/MuseScore_CountNotes)
+
 [Callout measure guide](https://tommcarr.medium.com/using-musescore-for-handbell-music-c615ce993b2d)
