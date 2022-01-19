@@ -13,6 +13,7 @@ Please see the [MuseScore handbook](https://musescore.org/en/handbook/3/plugins#
 # Development Notes
 As of now I am unable to find a way to fully automate the callout measure creation process, so some visual representations still need to be manually done as a workaround. 
 The plugin does not separate chimes and bells yet - all notes will be counted together. 
+If 12 placeholder bars are not enough to contain all your notes, you can modify the code to increase the number of bars added. 
 
 # Step-by-step Tutorial
 If your score has multiple parts (not only handbells) you should [separate them into different parts](https://musescore.org/en/handbook/3/parts) first before using the plugin. 
